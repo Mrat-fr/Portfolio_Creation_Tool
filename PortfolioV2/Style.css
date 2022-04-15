@@ -1,0 +1,107 @@
+body{
+    min-height: 100vh;
+    position: relative;
+}
+
+footer {
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    position: absolute;
+    bottom: 0;
+    margin-top: 10px;
+    background-color:#646464;
+    color:#b1b1b1;
+}
+
+.flexbox-contanier{
+    display: flex;
+}
+
+.flexbox-toolbar{
+    height: 380px;
+    width: 200px;
+    background-color: #d4d4d4;
+    margin-top: -16px;
+}
+
+.flexbox-main{
+    min-height: 93vh;
+    height: 100px;
+    width: 1720px;
+    background-color: #ffffff;
+    margin-top: -16px;
+}
+
+.Avatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -110px;
+}
+
+.HomeAvatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Title {
+    text-align: center; 
+    width: 100%; 
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: #3a3a3a;
+}
+
+.welcome {
+    text-align: center; 
+    width: 100%; 
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+
+.projectbox {
+    text-align: center; 
+    min-height: 450px;
+    width: 1500px;
+    border: 1px solid black;
+    padding: 50px;
+    margin: auto;
+}
+
+.project {
+    height: 160px;
+    width: 130px;
+    border: 1px solid black;
+    margin: 5px;
+    float: left;
+
+}
+
+.projectimage {
+    height: 130px;
+    width: 130px;
+    float: left;
+
+}
+
+
+.Text-Block {
+    padding-top: 40px;
+    width: 100%;
+    height: 300px;
+    background-color: #646464;
+    text-align: center; 
+    width: 100%; 
+    font-size: 40px
+}
